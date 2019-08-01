@@ -1,0 +1,21 @@
+[
+    {
+      "tekst":"Istorija Beograda datira od 7000. godine pre nove ere. Vinčanska kultura, praistorijska kultura Evrope, nastala je u okolini Beograda u 6. milenijumu pre nove ere. U staro doba, tračko-dačka plemena su naseljavala ovu oblast, da bi Kelti osvojili naselje na mestu današnjeg Beograda i dali mu ime Singidunum. Rimljani su osvojili grad za vreme cara Oktavijana Avgusta u 2.veku. Osmansko carstvo je osvojilo Beograd 1521.godine, a Beograd je postao prestonica Srbije 1841. godine.",
+      "src":"images/his1.jpg",
+       "alt":"Stari Beograd"
+    },
+
+    {
+      "tekst":"Turci su za vreme sultana Sulejmana Veličanstvenog 1521. godine uspeli da osvoje Beograd kada je grad potpuno spaljen. Pomeranjem granice na sever, menja se strateški položaj Beograda i u narednih 150 godina, ostao je relativno miran grad. Pomeranjem turske granice na sever, dotadašnje pogranično utvrđenje je izraslo u trgovačko i saobraćajno središte tog dela turskog carstva. Svoj najveći uspon pod Turcima grad dostiže u polovinom 17. veka kada je imao oko 100.000 stanovnika.",
+      "src":"images/his3.jpg",
+       "alt":"Beograd pod Turcima"
+    },
+
+    {
+      "tekst":"Posleratni Beograd - NATO bombardovanje 1999. prouzrokovalo je značajnu štetu gradskoj infrastrukturi. Među pogođenim objektima bile su i zgrade nekoliko ministarstava, zgrada RTS-a u kojoj je poginulo 16 zaposlenih, nekoliko bolnica, hotel „Jugoslavija“, nekadašnja zgrada Centralnog komiteta, televizija na Avali, kao i kineska ambasada na Novom Beogradu. Proglašenjem nezavisnosti Crne Gore 2006. godine nakon referenduma, Beograd ostaje glavni grad samo Republike Srbije.",
+      "src":"images/his2.jpg",
+       "alt":"Posleratni Beograd"
+    }
+
+
+]

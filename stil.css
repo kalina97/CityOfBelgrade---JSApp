@@ -1,0 +1,1252 @@
+	html, body
+	{
+		height: 100%;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #181818;
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 12pt;
+		font-weight: 200;
+		color: #FFF;
+	}
+
+
+
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+
+	p
+	{
+		line-height: 180%;
+	}
+
+	strong
+	{
+	}
+
+	a
+	{
+		color: #ee0000;
+	}
+
+	a:hover
+	{
+		text-decoration: none;
+	}
+
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+	}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+	}
+
+	ul.actions
+	{
+	}
+
+	ul.actions li
+	{
+		display: inline-block;
+		padding: 0em 0.50em;
+	}
+
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		background: #2651a8;
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #FFF;
+	}
+
+	.button:hover{
+		background-color: #3d5b99;
+	}
+
+ #naslov{
+	 float: right;
+ }
+
+ #dugme{
+	 position: static;
+	 z-index: 999;
+   outline: none;
+	 border: 2px solid white;
+	 border-radius: 85px;
+	 width: 70px;
+	 height: 70px;
+   margin-top: 27px;
+ 	 margin-left: 186px;
+	 opacity: 0.6;
+ }
+
+ #dugme:hover{
+	 opacity: 1;
+	 cursor: pointer;
+ }
+
+
+
+ .slika{
+	 width: 90px;
+	 height: 90px;
+ }
+
+ #logoo{
+	 float: left;
+ }
+
+	.button-alt
+	{
+		padding: 1em 2em;
+		border-color: rgba(0,0,0,.8);
+		color: #FFF;
+	}
+
+
+	#galerija{
+		width: 100%;
+		height: 1460px;
+		border-bottom: 1px solid white;
+		background-color: #3d5b99;
+
+	}
+
+	#galerija a{
+		float: left;
+		margin-top: 10px;
+	}
+
+	#galerija a img{
+		width: 275px;
+		height: 250px;
+		padding: 2px;
+		margin-top: 50px;
+		border:3px solid white;
+		margin-bottom: 28px;
+		border-radius: 7px;
+	}
+
+
+	#galeri{
+		width: 1000px;
+		height: 1100px;
+		margin-left: 490px;
+
+	}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+
+	.title h2
+	{
+		font-size: 2.7em;
+
+	}
+
+	.gore{
+			margin-top: 130px;
+	}
+
+	.title .byline
+	{
+		font-size: 1.3em;
+		color: rgba(255,255,255,0.60);
+	}
+
+
+
+	.strelica {
+    width:50px;
+    height:80px;
+    opacity: 0.6;
+		margin: 20px;
+		margin-top: 210px;
+
+}
+
+
+.strelica:hover {
+    opacity:1;
+		cursor: pointer;
+}
+
+#banLevo {
+	  background-image: url(images/slider-levo.png);
+    position:relative;
+    float:left;
+    top:185;
+		width: 200px;
+		height: 200px;
+}
+
+#banDesno {
+	  background-image: url(images/desno.png);
+    position:relative;
+    float:right;
+    top:185;
+		width: 200px;
+		height: 200px;
+}
+
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+#slider {
+	background-image:url("images/slika2.jpg");
+	height:600px;
+	background-size:cover;
+	border-bottom: 1px solid white;
+}
+
+#sredina{
+	width: 100%;
+	height: 700px;
+	background: #525252;
+	border-bottom: 1px solid white;
+}
+
+#sredina img{
+	width: 400px;
+	height: 500px;
+	float: left;
+	margin-left: 485px;
+	margin-top: 90px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 20px 9px white;
+	opacity: 0.8;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+border-radius: 4px;
+min-width: 214px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+margin-top:12.4px;
+text-align:left;
+}
+
+.dropdown-content a {
+color: black;
+padding-left: 65px;
+text-decoration: none;
+text-transform: uppercase;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.show {display:block;}
+
+.pom{
+	margin-left: 20px;
+}
+
+.dropbtn {
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 25px;
+padding-right: 25px;
+background: none;
+border: none;
+font-size: 1.0em;
+letter-spacing: 1px;
+text-transform: uppercase;
+background-color: #ddd;
+border-radius: 4px;
+font-family: Baloo+Bhaina|Raleway;
+cursor: pointer;
+color: #3d5b99;
+}
+
+
+
+
+.dropbtn:hover{
+	background-color:  #3d5b99;
+	color: white;
+	border-radius: 4px;
+}
+
+.dropbtn:hover {
+background-color: #3d5b99;
+}
+
+
+#sredina img:hover{
+	opacity: 1;
+}
+
+#sredina p{
+	float: right;
+}
+
+#moje{
+	width: 400px;
+	height: 500px;
+	float: right;
+	margin-right: 580px;
+	margin-top: 90px;
+	border-radius: 8px;
+	box-shadow:0px 0px 25px 10px  white;
+	background: #3d5b99;
+}
+
+table{
+	padding-left: 10px;
+	padding-top: -70px;
+	margin-top: -70px;
+}
+
+table td{
+	padding: 7px;
+	font-size: 1.41em;
+	font-family:Baloo+Bhaina|Raleway;
+	letter-spacing: 2px;
+	color: black;
+	font-weight: bold;
+	border-bottom: 1px dotted black;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #111111 url(images/grad.jpg) no-repeat center;
+		background-size: cover;
+		height: 360px;
+		width: 100%;
+		border-bottom: 1px solid white;
+	}
+
+	#header
+	{
+		width: 100%;
+		position:relative;
+		padding: 2em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		margin-left: 330px;
+		position: absolute;
+		top: 3.6em;
+		left: 0;
+		float: left;
+	}
+
+	#logo h1
+	{
+		font-size: 2.6em;
+		color: #79C255;
+	}
+
+	#logo a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,1);
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		float: right;
+		position:absolute;
+		top: 4.5em;
+        margin-left: 1020px;
+	}
+
+	#menu ul
+	{
+		display: inline-block;
+	}
+
+	#menu li
+	{
+		margin-right: 10px;
+		display: block;
+		float: left;
+		text-align: center;
+	}
+
+	#menu li a
+	{
+		padding: 0.65em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		background-color: #ddd;
+		border-radius: 4px;
+		color: #3d5b99;
+        font-family: Baloo+Bhaina|Raleway;
+	}
+
+
+	#menu a:hover
+	{
+		background: #3d5b99;
+		border-radius: 4px;
+		color: rgba(255,255,255,1);
+	}
+
+	#linkovi li a{
+		text-transform: uppercase;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding-top: 10em;
+		text-align: center;
+	}
+
+	#banner .title h2
+	{
+		font-size: 4em;
+	}
+
+	#banner .title .byline
+	{
+		font-size: 2em;
+	}
+
+	#banner .button
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+
+	}
+
+	.banner
+	{
+		margin-bottom: 5em;
+	}
+
+
+/**** stilovi za formular ***/
+#formica{
+	 width: 99%;
+   min-height: 100vh;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: flex;
+	 height: 1260px;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+   background: #525252;
+	 border-bottom: 1px solid white;
+}
+
+.kontaktForma{
+ width: 755px;
+ height: 985px;
+ background: #E3F1F6;
+ border-radius: 10px;
+ border: 4px solid #3d5b99;
+ overflow: hidden;
+ margin-left: -60px;
+ padding: 62px 55px 90px 55px;
+ margin-bottom: 10px;
+}
+
+.cinjenice{
+	width: 800px;
+	height: 80px;
+	background: #525252;
+	border-radius: 5px;
+	color: white;
+	margin-left: -10px;
+	font-size: 22px;
+	margin-top: -45px;
+	border: 3px solid white;
+	letter-spacing: 1.5px;
+}
+
+.cinjenice:hover{
+	color: white;
+	background-color: #0C0C0C;
+}
+
+#pocetniDeo{
+	width: 1600px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 55px;
+}
+
+.blokovi{
+	width: 370px;
+	height: 580px;
+	margin: 80px;
+	float: left;
+	background: #525252;
+	border: 1px solid white;
+	border-radius: 4px;
+}
+
+.blokovi p{
+	text-align: left;
+	padding-left: 8px;
+	padding-top: 9px;
+  font-family: Baloo+Bhaina|Raleway;
+	font-size: 17.8px;
+}
+
+.slikaPocetna{
+	width: 360px;
+	height: 245px;
+	border: 5px solid white;
+}
+
+
+#history{
+	width: 100%;
+	height: 1400px;
+	border-bottom: 1px solid white;
+	background: #525252;
+}
+
+#istorijaTekst img{
+	width: 320px;
+	height: 230px;
+  margin: 30px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 95px;
+	margin-bottom: 80px;
+	border: 5px solid #3d5b99;
+	border-bottom:7px solid black;
+}
+
+
+#istorijaTekst{
+	width: 1700px;
+	height: 420px;
+	margin-left: 95px;
+	border-bottom: 4px solid black;
+}
+
+
+#cultureOne p{
+	text-align: left;
+	font-size: 22px;
+	padding-left: 60px;
+	float: right;
+}
+
+#cultureOne p:first-letter{
+	color: #3d5b99;
+	font-size: 34px;
+}
+
+#cultureOne img{
+	width: 400px;
+	height: 330px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 60px;
+	border-radius: 10px;
+	margin-right: 47px;
+	border: 2px solid #3d5b99;
+	border-bottom: 7px solid #3d5b99;
+	border-right: 7px solid #3d5b99;
+}
+
+#markeri{
+	width:460px;
+	height:960px;
+	margin-left:83px;
+	padding-top:80px;
+	border-bottom:5px dotted black;
+	float:left;
+    margin-right:90px;
+}
+
+#markeri h2{
+	color:black;
+	text-align:center;
+	margin-bottom:20px;
+    font-weight:bold;
+	}
+
+#markeri img{
+	width:450px;
+	height:320px;
+	margin-bottom:35px;
+	border-radius:8px;
+	margin-top:10px;
+	border:3px solid black;
+	border-bottom:10px solid black;
+}
+
+#markeri p{
+margin-left:5px;
+text-align:left;
+font-size:19px;
+color:black;
+font-weight:bold;	
+margin-bottom:50px;	
+}
+
+
+#markeri p:first-letter{
+	color:white;
+	font-size:32px;
+}
+
+#cultureOne{
+	width: 1500px;
+	height: 540px;
+	margin-top: 140px;
+	margin-bottom: 100px;
+	margin-left: 186px;
+	padding-top:10px;
+	border-left: 2px dotted #3d5b99;
+	border-right: 2px dotted #3d5b99;
+}
+
+
+#istorijaTekst p{
+	font-size: 23px;
+	  font-family: Baloo+Bhaina|Raleway;
+		padding-top: 70px;
+		padding-left: 20px;
+}
+
+#istorijaTekst p::first-letter{
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+}
+
+
+#obelezja{
+	width: 100%;
+	height: 1200px;
+	border-bottom: 1px solid white;
+	background: #3d5b99;
+}
+
+
+#culture{
+	width: 100%;
+	height: 2100px;
+	border-bottom: 2px dotted white;
+}
+
+#eror{
+	color: red;
+	font-size: 20px;
+	margin-top: -5px;
+}
+
+#erorMail{
+	color: red;
+	font-size: 20px;
+	margin-top: -5px;
+}
+
+#erorFon{
+	color: red;
+	font-size: 20px;
+	margin-top: -5px;
+}
+
+#erorPoruka{
+	color: red;
+	font-size: 20px;
+	margin-top: -5px;
+}
+
+.dugmeForma{
+	display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 20px;
+width: 100%;
+}
+
+.potvrdiFormu{
+
+ display: -webkit-flex;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 0 20px;
+ width: 100%;
+ margin-left: 7px;
+ height: 50px;
+ background: #e6e6e6;
+ border-radius: 20px;
+ font-family: Baloo+Bhaina|Raleway;
+ font-size: 16px;
+ border: 3px solid #3d5b99;
+ color:#3d5b99;
+ margin-top: -8px;
+ font-weight: bold;
+ line-height: 1.2;
+ letter-spacing: 1.5px;
+ -webkit-transition: all 0.4s;
+ -o-transition: all 0.4s;
+ -moz-transition: all 0.4s;
+ transition: all 0.4s;
+}
+
+
+.potvrdiFormu:hover{
+	 background-color:  #3d5b99;
+	 cursor: pointer;
+	 color: white;
+	 font-weight: bold;
+}
+
+.hederForme{
+	display: block;
+ width: 100%;
+ font-family: Baloo+Bhaina|Raleway;
+ font-size: 39px;
+ color: #3d5b99;
+ font-weight: bold;
+ line-height: 1.2;
+ text-align: center;
+ padding-bottom: 29px;
+ padding-top: -10px;
+}
+
+.ddLista{
+	margin-top: 6px;
+	padding: 5px;
+	color:white;
+	background:#3d5b99;
+	font-size: 17px;
+}
+
+.poljaForme{
+	width: 100%;
+ position: relative;
+ border: 2px solid #3d5b99;
+ border-radius: 13px;
+ background: #e6e6e6;
+ padding: 15px 1px 13px 22px;
+ margin-bottom: 20px;
+ margin-left: -6px;
+}
+
+.tekstTipovi{
+font-family: Baloo+Bhaina|Raleway;
+ font-size: 17px;
+ color:#3d5b99;
+ font-weight: bold;
+ line-height: 1.5;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+}
+
+.inputTipovi{
+ display: block;
+ width: 95%;
+ background: transparent;
+ font-family: Montserrat-SemiBold;
+ font-size: 18px;
+ margin-top: 13px;
+ border-radius: 4px;
+ border: none;
+ color: #555555;
+ padding: 9px;
+ line-height: 1.2;
+ padding-right: 15px;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+input::-webkit-input-placeholder { color: #adadad;}
+input:-moz-placeholder { color: #adadad;}
+input::-moz-placeholder { color: #adadad;}
+input:-ms-input-placeholder { color: #adadad;}
+
+textarea::-webkit-input-placeholder { color: #adadad;}
+textarea:-moz-placeholder { color: #adadad;}
+textarea::-moz-placeholder { color: #adadad;}
+textarea:-ms-input-placeholder { color: #adadad;}
+
+
+
+
+
+
+
+
+/*******************/
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#futer
+	{
+		width: 100%;
+		height: 230px;
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+
+	#futer p
+	{
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.3);
+	}
+
+	#futer a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+
+	#futer ul li {
+		display: block;
+		margin: 8px;
+	}
+
+	#futer a{
+		text-decoration: underline;
+
+	}
+
+	#info ul li{
+		display: inline-block;
+		margin-left: 30px;
+	}
+
+	.face{
+		padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+	}
+
+	.face:hover {
+    background-color: #3d5b99;
+}
+
+	.mreze img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.mreze {
+		border-bottom: 1px solid #3d5b99;
+		padding-bottom: 17px;
+    margin-left: -30px;
+	}
+
+	.mreze a{
+		padding-right: 1px;
+		margin-right: -3.5px;
+	}
+
+@import url(https://fonts.googleapis.com/css?family=Baloo+Bhaina|Raleway);
+
+ #linkovi{
+	 width: 280px;
+	 height: auto;
+	 float: left;
+	 border-radius: 4px;
+	 margin-top:-57px;
+	 padding: 7px;
+	 margin-left: 220px;
+	 margin-right: 135px;
+ }
+
+  #linkovi ul{
+		text-align: left;
+	}
+
+	#linkovi a{
+		text-decoration: none;
+		font-family:Baloo+Bhaina|Raleway;
+		font-weight: bold;
+		font-size: 17px;
+		letter-spacing: 2px;
+	}
+
+	#linkovi ul li:not(:last-child){
+		border-bottom: 1px solid  #3d5b99;
+		font-size: 15px;
+		opacity: 0.7;
+		padding: 5px;
+		padding-bottom:10px;
+	}
+
+  #linkovi ul li:last-child{
+		padding: 5px;
+		opacity: 0.7;
+	}
+
+	#linkovi a:hover{
+		opacity: 1;
+		color: white;
+	}
+
+	.tvit {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.tvit:hover {
+    background-color: #00aced;
+}
+
+
+.insta {
+	padding:10px 12px;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition: .5s;
+	background-color: #322f30;
+}
+.insta:hover {
+	background-color:#bc2a8d ;
+}
+
+.rss {
+	 padding:10px 14px;
+	 -o-transition:.5s;
+	 -ms-transition:.5s;
+	 -moz-transition:.5s;
+	 -webkit-transition:.5s;
+	 transition: .5s;
+	 background-color: #322f30;
+}
+.rss:hover {
+	 background-color: #eb8231;
+}
+
+
+.youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.youtube:hover {
+    background-color: #e64a41;
+}
+
+
+
+  #info .pasus{
+	 font-size: 19px;
+	 letter-spacing: 2px;
+	 margin-right:66px;
+	 color: #3d5b99;
+	 font-family: Baloo+Bhaina|Raleway;
+	 text-transform: uppercase;
+	 font-weight: bold;
+ }
+
+.links{
+	letter-spacing: 4px;
+	text-align: left;
+	padding-left: 10px;
+	font-family: Baloo+Bhaina|Raleway;
+	color:  #3d5b99;
+	margin-bottom: 18px;
+}
+
+.links1{
+	letter-spacing: 4px;
+	text-align: left;
+	padding-left: 0px;
+	font-family: Baloo+Bhaina|Raleway;
+	color:  #3d5b99;
+	margin-bottom: 18px;
+
+}
+#lokacija{
+	float:left;
+	width: 410px;
+	height: auto;
+	margin: 50px;
+	margin-top: -50px;
+}
+
+#lokacija img{
+	width: 395px;
+	height: 270px;
+	border: 3px solid  #3d5b99;
+}
+
+
+ #info{
+	 margin-top: -50px;
+	 padding-left: -40px;
+	 float: right;
+	 width: 600px;
+	 height: auto;
+	 margin-right: 8px;
+ }
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#sadrzaji
+	{
+		position: relative;
+		padding: 7em 0em 7em 0em;
+		background:  #3d5b99;
+		width: 100%;
+		height: 800px;
+		background-size: cover;
+		text-align: center;
+		border-bottom: 1px solid white;
+	}
+
+	#sadrzaji .container
+	{
+		width: 1000px;
+		padding: 0px 100px;
+		color: rgba(255,255,255,0.8);
+	}
+
+
+
+
+	.slike{
+		width: 100%;
+		height: 1500px;
+	}
+
+
+
+
+#kontakt{
+	width: 100%;
+	height: 700px;
+	border-bottom: 1px solid white;
+}
+
+
+ .linkss{
+  margin-left: -6px;
+	margin-bottom: 15px;
+	 padding-left: 3px;
+	 letter-spacing: 3px;
+	 color:  #3d5b99;
+ }

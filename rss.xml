@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+	<title></title>
+	<link>http://sajtovistudenata.ict.edu.rs/40_16</link>
+	<description>Opis</description>
+		<item>
+			<title>Grad Beograd | Početna</title>
+			<description>Opis</description>
+			<link>http://sajtovistudenata.ict.edu.rs/40_16/index.html</link>
+		</item>
+		<item>
+			<title>Grad Beograd | Meni</title>
+			<description>Opis</description>
+			<link>http://sajtovistudenata.ict.edu.rs/40_16/meni.html</link>
+		</item>
+		<item>
+			<title>Grad Beograd | Istorija</title>
+			<description>Opis</description>
+			<link>http://sajtovistudenata.ict.edu.rs/40_16/istorija.html</link>
+		</item>
+		<item>
+			<title>Grad Beograd | Kultura</title>
+			<description>Opis</description>
+			<link>http://sajtovistudenata.ict.edu.rs/40_16/kultura.html</link>
+		</item>
+		<item>
+			<title>Grad Beograd | Znamenitosti</title>
+			<description>Opis</description>
+			<link>http://sajtovistudenata.ict.edu.rs/40_16/obelezja.html</link>
+		</item>
+		<item>
+			<title>Grad Beograd | Galerija</title>
+			<description>Opis</description>
+			<link>http://sajtovistudenata.ict.edu.rs/40_16/galerija.html</link>
+		</item>
+		<item>
+			<title>Grad Beograd | Kontakt</title>
+			<description>Opis</description>
+			<link>http://sajtovistudenata.ict.edu.rs/40_16/kontakt.html</link>
+		</item>
+		<item>
+			<title>Grad Beograd | Autor</title>
+			<description>Opis</description>
+			<link>http://sajtovistudenata.ict.edu.rs/40_16/autor.html</link>
+		</item>
+
+</channel>
+</rss>
